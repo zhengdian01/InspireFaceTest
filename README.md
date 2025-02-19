@@ -1,3 +1,3 @@
 # InspireFaceTest
 InspireFaceTest
-InspireFace.framework下载：
+[InspireFace](https://github.com/HyperInspire/InspireFace)
