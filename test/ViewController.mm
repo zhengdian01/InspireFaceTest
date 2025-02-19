@@ -222,7 +222,7 @@
             if (multipleFaceData.rects != NULL) {
                 NSLog(@"face x:%d,y:%d,width:%d,height:%d",multipleFaceData.rects->x,multipleFaceData.rects->y,multipleFaceData.rects->width,multipleFaceData.rects->height);
                 
-                HFMultipleFacePipelineProcess(session, imageHandle, &multipleFaceData, {1,1,0,0,1,0,1});
+                HFMultipleFacePipelineProcess(session, imageHandle, &multipleFaceData, {1,0,0,0,1,0,1,0});
                
               
                     if (ret == HSUCCEED) {
